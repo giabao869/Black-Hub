@@ -4245,11 +4245,14 @@ end
 -- CHỈ ĐỔI TÊN Ở ĐÂY:
 -- ============================================
 
-local vu616 = loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow({
-    ["Title"] = " OMEGA Hub",
-    ["SubTitle"] = "by real_OMEGA",
-    ["SaveFolder"] = "OMEGA | bạn mong chờ gì?"
+local RedzHub = loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow({
+    ["Title"] = "OMEGA Hub", 
+    ["SubTitle"] = "by real_redz | OMEGA Hub",
+    ["SaveFolder"] = "OMEGA Hub"
 })
+
+RedzHub.ChangeTheme("Ocean")
+
 local v617 = Instance.new("ScreenGui")
 v617.Name = "ControlGUI"
 v617.Parent = game.CoreGui
