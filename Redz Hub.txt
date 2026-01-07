@@ -4244,9 +4244,9 @@ function CheckItemBPCRBPCR(p611)
     end
 end
 local vu616 = loadstring(game:HttpGet("https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib"))():MakeWindow({
-    ["Title"] = "Black redz",
-    ["SubTitle"] = "by OMEGA",
-    ["SaveFolder"] = "Redz | redz lib v5.lua"
+    ["Title"] = "redz Hub revive",
+    ["SubTitle"] = "by real_OMEGA",
+    ["SaveFolder"] = "Redz | OMEGA HUB"
 })
 local v617 = Instance.new("ScreenGui")
 v617.Name = "ControlGUI"
@@ -4254,7 +4254,7 @@ v617.Parent = game.CoreGui
 local vu618 = Instance.new("ImageButton")
 vu618.Size = UDim2.new(0, 35, 0, 35)
 vu618.Position = UDim2.new(0.15, 0, 0.15, 0)
-vu618.Image = "rbxassetid://80424431930361"
+vu618.Image = "rbxassetid://136573518692872"
 vu618.BackgroundTransparency = 1
 vu618.Parent = v617
 local v619 = Instance.new("UICorner")
